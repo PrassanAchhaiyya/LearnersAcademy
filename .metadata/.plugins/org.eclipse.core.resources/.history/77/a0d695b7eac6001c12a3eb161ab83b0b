@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<style> table,td,th{border:2px solid green;padding:10px;}</style>
+</head>
+<body>
+<h1 align="center">Admin Dashboard</h1>
+<br>
+<br>
+<b>Read Tables</b>
+<br>
+<table>
+<tr>
+<th><a href="dummy-populate" >dummypopulate</a></th>
+<th><a href="read-student-table" >Student Table</a></th>
+<th><a href="read-master-table">Master Table</a></th>
+<th><a href="read-teacher-table">Teacher Table</a></th>
+</tr>
+</table>
+<br><br>
+<b>Assign Teacher</b><br>
+Select the class you wish to assign a teacher to
+<br>
+<table>
+<tr>
+<th><a href="Web.html">WEB DEVELOPMENT</a></th>
+<th><a href="Core.html">CORE COMPUTER SCIENCE</a></th>
+<th><a href="prog.html">PROGRAMMING LANGUAGES</a></th>
+</tr>
+</table>
+<br>
+<br>
+<b>Update Student</b><br>
+Select the class you wish to assign a teacher to
+<br>
+<table>
+<tr>
+<th><a href="add-student">Enroll new Student</a></th>
+<th><a href="delete-student">Delete a student</a></th>
+</tr>
+</table>
+
+
+
+</body>
+</html>

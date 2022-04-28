@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>ASSIGN WEB DEVELOPMENT CLASS</h1>
+<form action="update-teacher-table" method="post">
+	<select name="class">
+			<option value="1">Web Development</option>
+		</select>
+	<br><br>Select Subject
+	<select name="subject">
+			<option value="1">HTML</option>
+			<option value="2">CSS</option>
+			<option value="3">JAVASCRIPT</option>
+		</select>
+</form>
+</body>
+</html>

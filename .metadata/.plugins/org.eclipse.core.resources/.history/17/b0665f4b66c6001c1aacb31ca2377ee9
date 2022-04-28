@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<style> table,td,th{border:2px solid green;padding:10px;}</style>
+</head>
+<body>
+<h1 align="center">ADmin Dashboard</h1>
+<table>
+<tr>
+<th><a href="populate" >Populate</a></th>
+<th><a href="read-master-table">Master Table</a></th>
+<th><a href="read-teacher-table">Teacher Table</a></th>
+</tr>
+</table>
+<br>
+<a href="update-teacher">Update Teacher</a><br>
+
+<a href="Web.html">WEB DEVELOPMENT</a>
+<a href="Core.html">CORE COMPUTER SCIENCE</a>
+<a href="prog.html">PROGRAMMING LANGUAGES</a>
+
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\C Prassan\Documents\LearnersAcademy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1604532223.index
+3873872758.index
+501127319.index
+748872367.index
+1786645125.index
+4009963565.index

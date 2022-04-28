@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<style> table,td,th{border:2px solid green;padding:10px;}</style>
+</head>
+<body>
+<h1 align="center">Admin Dashboard</h1>
+<br>
+<br>
+<b>Update Teacher</b>
+<br>
+<table>
+<tr>
+<th><a href="read-student-table" >Student Table</a></th>
+<th><a href="read-master-table">Master Table</a></th>
+<th><a href="read-teacher-table">Teacher Table</a></th>
+</tr>
+</table>
+<br><br>
+<b>Update Teacher</b>
+Select the class you wish to update
+<br>
+<table>
+<tr>
+<th><a href="Web.html">WEB DEVELOPMENT</a></th>
+<th><a href="Core.html">CORE COMPUTER SCIENCE</a></th>
+<th><a href="prog.html">PROGRAMMING LANGUAGES</a></th>
+</tr>
+</table>
+
+
+</body>
+</html>

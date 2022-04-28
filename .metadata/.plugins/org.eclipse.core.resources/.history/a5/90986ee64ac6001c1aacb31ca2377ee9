@@ -1,0 +1,68 @@
+package com.myPackage.servlets;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.myPackage.entitys.Classes;
+import com.myPackage.entitys.Subjects;
+import com.myPackage.entitys.Teacher;
+import com.myPackage.utility.HibernateUtil;
+
+/**
+ * Servlet implementation class UpdateTeacherTable
+ */
+@WebServlet("/update-teacher table")
+public class UpdateTeacherTable extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public UpdateTeacherTable() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		/*
+		SessionFactory sf=HibernateUtil.buildSessionFactory();
+		Session session=sf.openSession();
+		Transaction tx=session.beginTransaction();
+		Classes classOb=(Classes)session.get(Classes.class, 1);
+		Teacher[] arr=classOb.getTeachers();
+		Teacher teacherob=session.get(Teacher.class, 8);
+		Subjects subject=session.get(Subjects.class, 2);
+		subject.setTeacher(teacherob);
+		session.saveOrUpdate(subject);
+        arr[0]=teacherob;
+		classOb.setTeachers(arr);
+		session.saveOrUpdate(classOb);
+		tx.commit();
+		session.close();
+		*/
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
